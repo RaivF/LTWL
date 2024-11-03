@@ -1,0 +1,15 @@
+.MainDescriptionContainer {
+  width: 100%;
+  background-color: black;
+}
+
+.cartsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+  flex-wrap: wrap;
+  width: 83%;
+  margin: 0 auto;
+  background-color: #525252;
+  padding: 10px;
+}
