@@ -1,0 +1,39 @@
+/* AboutUs.module.css */
+.aboutUs {
+  padding: 20px;
+  background-color: black;
+
+
+
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+
+}
+
+.aboutUsBlock {
+  margin: 0 30px 20px 30px;
+  border: 1px solid silver;
+  padding: 10px;
+
+}
+
+.blockTitle {
+  color: white;
+  font-weight: bold;
+}
+
+.blockText {
+  color: white;
+  line-height: 1.6;
+}
