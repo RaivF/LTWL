@@ -1,7 +1,10 @@
 import React from 'react'
 import s from './logoAndMenu.module.css'
+type PropsType = {
+	onAboutClick: () => void
+}
 
-export const LogoAndMenu = () => {
+export const LogoAndMenu: React.FC<PropsType> = ({ onAboutClick }) => {
 	return (
 		<div className={s.MainLogoContainer}>
 			<div className={s.logoContainer}>
@@ -12,7 +15,13 @@ export const LogoAndMenu = () => {
 				</div>
 			</div>
 			<div className={s.menu}>
-				<span>О нас</span>
+				<span
+					onClick={() => {
+						onAboutClick()
+					}}
+				>
+					О нас
+				</span>
 				<span>наши контакты</span>
 				<span>отзывы</span>
 			</div>

@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import './App.css'
 import { AboutUs } from './components/AboutUs'
 import { ContactsBar } from './components/Header/ContactsBar'
@@ -8,13 +9,23 @@ import { LaserContainer } from './components/MainContent/LaserContainer'
 import YmapsComponent from './components/Ymaps'
 
 function App() {
+	// Создаем реф для секции "О нас"
+	const aboutRef = useRef<HTMLDivElement | null>(null)
+	console.log(aboutRef)
+
+	// Функция прокрутки к "О нас"
+	const scrollToAbout = () => {
+		if (aboutRef.current) {
+			aboutRef.current.scrollIntoView({ behavior: 'smooth' })
+		}
+	}
 	return (
 		<section>
 			<ContactsBar />
-			<LogoAndMenu />
+			<LogoAndMenu onAboutClick={scrollToAbout} />
 			<LaserContainer />
 			<Examples />
-			<AboutUs />
+			<AboutUs ref={aboutRef} />
 			<YmapsComponent />
 		</section>
 	)
