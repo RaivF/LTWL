@@ -5,8 +5,8 @@ export const ContactsBar = () => {
 	return (
 		<div className={s.ContactsBarContainer}>
 			<div className={s.infoContainer}>
-				<div className={s.phone}>+7 916 064 43 92</div>
-				<div className={s.address}>ул Пушкина дом колотушкина</div>
+				<div className={s.phone}>+7 (8422) 99-79-49</div>
+				<div className={s.address}>ул. Гончарова 42</div>
 			</div>
 			<div>
 				<span>мы в ВК</span>

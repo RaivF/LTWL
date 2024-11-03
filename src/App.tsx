@@ -8,7 +8,7 @@ import YmapsComponent from './components/Ymaps'
 
 function App() {
 	return (
-		<section>
+		<section >
 			<ContactsBar />
 			<LogoAndMenu />
 			<LaserContainer />

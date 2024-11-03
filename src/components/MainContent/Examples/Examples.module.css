@@ -1,15 +1,21 @@
 .MainDescriptionContainer {
   width: 100%;
   background-color: black;
+  text-align: center;
 }
 
 .cartsContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 50px 0 50px 0;
   flex-wrap: wrap;
   width: 83%;
   margin: 0 auto;
   background-color: #525252;
-  padding: 10px;
+}
+
+.text {
+  padding: 30px 0 30px 0;
+  font-size: 30px;
+
 }

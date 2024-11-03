@@ -6,10 +6,11 @@
   font: inherit;
   vertical-align: baseline;
   outline: none;
+
 }
 
 section {
   width: 80%;
   margin: 0 auto;
-
+  max-width: 1550px;
 }
