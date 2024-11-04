@@ -20,3 +20,25 @@
 .menu * {
   margin: 0 10px 0 10px;
 }
+
+.MainLogoContainer span {
+  cursor: pointer;
+}
+
+.contactContainer {
+
+  height: 70px;
+  position: absolute;
+  display: none;
+  background-color: black;
+
+}
+
+.contactSpan:hover .contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+}

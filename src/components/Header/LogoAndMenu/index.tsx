@@ -22,8 +22,23 @@ export const LogoAndMenu: React.FC<PropsType> = ({ onAboutClick }) => {
 				>
 					О нас
 				</span>
-				<span>наши контакты</span>
-				<span>отзывы</span>
+				<span className={s.contactSpan}>
+					Наши контакты
+					<div className={s.contactContainer}>
+						<span>
+							<span style={{ color: 'red' }}>тел.</span> +7 (8422) 99-79-49
+						</span>
+						<span>
+							{' '}
+							<span style={{ color: 'red' }}>email</span>
+							LapTopWorks@yandex.ru
+						</span>
+					</div>
+				</span>
+
+				<a href='https://www.avito.ru/ulyanovsk/predlozheniya_uslug/lazernaya_gravirovka_klaviatury_macbook_2707081007#open-reviews-list'>
+					Отзывы
+				</a>
 			</div>
 		</div>
 	)

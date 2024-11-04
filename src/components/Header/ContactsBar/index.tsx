@@ -9,7 +9,7 @@ export const ContactsBar = () => {
 				<div className={s.address}>ул. Гончарова 42</div>
 			</div>
 			<div>
-				<span>мы в ВК</span>
+				<a href='https://vk.com/laptopworks73'>мы в ВК</a>
 			</div>
 		</div>
 	)
