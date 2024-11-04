@@ -11,11 +11,11 @@
   flex-wrap: wrap;
   width: 83%;
   margin: 0 auto;
-  background-color: #525252;
+  background-color: #1d1d1d;
 }
 
 .text {
   padding: 30px 0 30px 0;
   font-size: 30px;
-
+  color: red;
 }

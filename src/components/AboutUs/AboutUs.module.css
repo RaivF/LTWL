@@ -40,3 +40,9 @@
   line-height: 1.7;
   margin-top: 10px;
 }
+
+.aboutUsBlock h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
