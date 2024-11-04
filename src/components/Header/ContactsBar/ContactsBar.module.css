@@ -21,3 +21,11 @@
 a {
   color: white;
 }
+
+@media screen and (max-width: 430px) {
+  .infoContainer {
+
+    flex-direction: column;
+  }
+
+}

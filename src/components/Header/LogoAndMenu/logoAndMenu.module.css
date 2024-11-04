@@ -42,3 +42,11 @@
 a {
   color: white;
 }
+
+
+@media screen and (max-width: 430px) {
+  .MainLogoContainer {
+    flex-direction: column;
+  }
+
+}
